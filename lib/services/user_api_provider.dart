@@ -14,8 +14,5 @@ Future<List<User>> getUsers() async{
   else {
     throw Exception('Error fetching users');
   }
+ }
 }
-}
-
-
-//
